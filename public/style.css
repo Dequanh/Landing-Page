@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+}
+
+#flex-box{
+    border: solid blue 3px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#right{
+    background-image: url('../movies.jpeg');
+    width: 28%;
+    height: 100%;
+    transform: rotate;
+}
+
+#left{
+    background-color: rgb(3, 0, 39);
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+h1{
+    color: White;
+    font-weight: 100;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
